@@ -1,0 +1,147 @@
+body {
+    background-image: url('https://storage.googleapis.com/pai-images/46a01def868249028e7a1966f03ee507.jpeg'),url('https://images.nightcafe.studio/jobs/npA22punneBrt3OX3bQF/npA22punneBrt3OX3bQF--1--bm39o.jpg?tr=w-1600,c-at_max'),url('https://i0.wp.com/boingboing.net/wp-content/uploads/2017/08/i-QjHC6k9-XL.jpg?resize=970%2C733'),url('https://www.nicolettaceccoli.com/wp-content/uploads/2023/07/25.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+    overflow-y: auto;
+    position: relative; 
+    
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    padding-top: 2.5rem;
+    justify-content: space-between;
+    gap: 10px; /*da un po di spazio fra i fle item*/
+    
+    
+}
+
+.navElements {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #EEF1F6;
+    margin-right: 10px;
+    
+}
+   
+
+
+.navElements:last-child {
+    padding-right:50px; /* Imposta il padding a destra sull'ultimo elemento per spostare tutti gli altri a sinistra */
+  }
+
+#home {
+    
+    color: #EEF1F6;
+    font-family: "Cinzel", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 28px;
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+  
+}
+
+
+footer span {
+    display: block;
+    padding: 0px 0px 7px 0px;
+    font-size: 13px;
+    font-family: "Work Sans", sans-serif;
+    color: #919191;
+    font-weight: 43;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .navbar {
+        flex-direction: column; 
+        padding-top: 0.5rem; 
+    }
+
+    .navElements {
+        padding: 0.5rem; 
+    }
+
+    #home {
+        padding: 0.5rem 0; 
+    }
+}
+
+@media screen and (max-width: 200px) {
+
+    #home {
+        font-size: 10px;
+    }
+    footer span {
+        font-size: 9px;
+    }
+    .navElements {
+        font-size: 9px;
+    }
+
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+footer h1 {
+    font-weight: 100;
+    font-size: 10px;
+    color: #333;
+    font-family: "Work Sans", sans-serif;
+}
+
+footer span:nth-child(2):hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+   
+}
+
+.menu a:hover {
+    background-color: #f0f0f0; 
+}
+ 
